@@ -70,7 +70,7 @@ btnHold.addEventListener('click', function () {
     scores[activePlayer];
   //2. check if score is >= 100
   //Finish the game
-  if (scores[activePlayer] >= 50) {
+  if (scores[activePlayer] >= 100) {
     document
       .querySelector(`.player--${activePlayer}`)
       .classList.add('player--winner');
